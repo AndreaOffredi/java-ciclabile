@@ -3,7 +3,7 @@ package org.lessons.java.ciclabile;
 public class ElencoInteri {
 
 	//CREO ARRAY E VARIABILE INDICE
-	public int[] elenco;
+	private int[] elenco;
 	private int indiceElenco;
 
 	//CREO COSTRUTTORE CON RICHIESTA PARAMETRI
