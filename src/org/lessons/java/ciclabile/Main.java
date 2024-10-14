@@ -15,5 +15,11 @@ public class Main {
         while(nuovoElenco.hasAncoraElementi()) { //fino a quando ha ancora elementi
         	System.out.println(nuovoElenco.getElementoSuccessivo()); //stampa il metodo
         }
+        
+        
+        if(nuovoElenco.getElementoSuccessivo() == -1) {
+        	System.out.println("Non ci sono più elementi");//prova stampa -1
+        }
 	}
+	
 }
